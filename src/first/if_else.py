@@ -32,3 +32,10 @@ isTrue('') # 空文字はfalse
 isTrue("") # 空リテラルはfalse
 isTrue([]) # 空配列はfalse
 isTrue({}) # 空辞書はfalse
+
+print('value1' == 'value2') # 同一ではないのでFalse
+print('value1' != 'value2') # 同一ではないのでTrue
+
+x = 'test'
+print(x is None) # オブジェクトが同一ではないのでFalse
+print(x is not None) # オブジェクトが同一ではないのでTrue
