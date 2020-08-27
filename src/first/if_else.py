@@ -39,3 +39,14 @@ print('value1' != 'value2') # 同一ではないのでTrue
 x = 'test'
 print(x is None) # オブジェクトが同一ではないのでFalse
 print(x is not None) # オブジェクトが同一ではないのでTrue
+
+def getValue():
+    return 1
+
+# python 3.8からのセイウチ演算子
+# 代入して評価できる
+# test = getValue()
+# if test:
+# のように分けなくても良い
+if test := getValue():
+    print('セイウチ演算子:=')
