@@ -49,3 +49,6 @@ print('{name}という本は{price}円です'.format(**book))
 bytesHoge = hoge.encode('UTF-8')
 print(type(bytesHoge))
 print(bytesHoge)
+
+# 文字列のデコード
+print(bytesHoge.decode('utf-8'))
